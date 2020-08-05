@@ -1,0 +1,11 @@
+
+Album
+  is valid without a title
+  is not valid with a title longer than 100 symbols
+  with proper data
+
+User
+  is valid with proper attributes
+
+Finished in 0.13904 seconds (files took 6.12 seconds to load)
+4 examples, 0 failures
