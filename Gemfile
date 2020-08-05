@@ -6,7 +6,6 @@ ruby '2.7.1'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 6.0.3', '>= 6.0.3.2'
 gem 'email_validator'
-
 group :development do
   gem 'annotate'
 end
@@ -40,6 +39,7 @@ group :development, :test do
   gem 'database_cleaner'
   gem 'capybara'
   gem 'pry'
+  gem 'factory_girl_rails'
 end
 
 group :development do
