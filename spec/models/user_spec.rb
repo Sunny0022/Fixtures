@@ -19,7 +19,6 @@ require 'capybara/rspec'
 RSpec.describe User, type: :model do
   fixtures :users
   test 'is valid with proper attributes' do
-    user1 = users(:john)
-    expect user1.to be_valid
+    expect(users(:john)).to be_valid
   end
 end
