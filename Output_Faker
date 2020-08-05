@@ -1,1 +1,14 @@
+Album
+  is valid without a title
+  is valid with proper title
+  with proper data
 
+User
+  is valid with proper attributes
+  is not valid without a name
+  is not valid without and email.
+  is not valid with incorrect email
+  conerts email to downcase
+  
+Finished in 0.09636 seconds (files took 8.24 seconds to load)
+8 examples, 0 failures
